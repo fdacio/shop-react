@@ -1,0 +1,7 @@
+.container_form {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}

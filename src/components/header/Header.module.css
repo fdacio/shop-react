@@ -1,0 +1,24 @@
+.container_header{
+  min-height: 100px;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: yellow;
+}
+.container_header h1 {
+  align-self: center;
+  
+}
+.container_header h2 {
+  align-self: center;
+}
+
+.link_login {
+  align-self: center;
+  color: yellow;
+  font-size: 14px;
+  border: 1px solid;
+  padding: 5px;
+}

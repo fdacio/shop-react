@@ -1,0 +1,15 @@
+.container_sidebar {
+    width: 200px;
+    background-color: black;
+}
+.container_links {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.link_menu {
+    color: yellow;
+    font-size: 14px;
+    margin: 10px;
+    
+}
