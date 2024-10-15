@@ -16,12 +16,10 @@ export default function RootLayout({ children }) {
           <Header />
         </header>
         <main>
-
             <Sidebar />
             <section className="content">
               {children}
             </section>
-
         </main>
         <footer>
           <Footer />

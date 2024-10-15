@@ -10,7 +10,7 @@ import InputPassword from "@/components/input/password";
 import Button from "@/components/button";
 
 export default function Login() {
-    
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const router = useRouter();
@@ -23,13 +23,14 @@ export default function Login() {
     }
 
     return (
-        <div className={styles.content_customers}>
-            <Form id="form_login" className="form_login">
-                <InputText funcSet={setEmail} value={email} label="Email"/>
-                <InputPassword funcSet={setPassword} value={password} label="Senha"/>
-                <Button value="Entrar" onClick={_doLogin}/>
-            </Form>
-
+        <div className={styles.container}>
+            <div className={styles.form_login}>
+                <Form id="form-login">
+                    <InputText funcSet={setEmail} value={email} label="Email" />
+                    <InputPassword funcSet={setPassword} value={password} label="Senha" />
+                    <Button value="Entrar" onClick={_doLogin} />
+                </Form>
+            </div>
         </div>
     );
 }
